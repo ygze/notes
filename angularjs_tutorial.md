@@ -457,5 +457,12 @@ app.controller('myCtrl', function($scope, hexafy) {
 
 ### Promise
 
+P&S
+
+P: a modal dialog was hide behinde backdrop, that made the dialog look tinted and made the dialog not to get inputs
+S:  If the modal container has a fixed or relative position or is within an element with fixed or relative position this behavior will occur. *Make sure the modal container and all of its parent elements are positioned the default way to fix the problem.*
+https://stackoverflow.com/questions/10636667/bootstrap-modal-appearing-under-background
+
+
 ## Reference
 http://www.bogotobogo.com/AngularJS/AngularJS_Introduction.php
